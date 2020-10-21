@@ -74,6 +74,7 @@ Power options you can use in `Power.load(options);`
 | path | appDirectory + '/power.log' | Log filename.
 | master | () => {} | Function to execute before spawning master process. You can welcome the user and run pre-checks here.
 | worker | () => {} | Function to execute after spawning worker process. Your Express app should be handled here.
+| autoRestart | true | Restarts automatically a worker when it dies. Useful for keeping your process alive when unexpected errors occur.
 
 ## Full Reference
 
@@ -106,6 +107,7 @@ Power options you can use in `load(main, options);`
 | path | appDirectory + '/power.log' | Log filename.
 | master | () => {} | Function to execute before spawning master process. You can welcome the user and run pre-checks here.
 | worker | () => {} | Function to execute after spawning worker process. Your Express app should be handled here.
+| autoRestart | true | Restarts automatically a worker when it dies. Useful for keeping your process alive when unexpected errors occur.
 
 *Notice: this package uses [Colors](https://www.npmjs.com/package/colors) internally, which extends the String prototype.*
 
