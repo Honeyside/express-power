@@ -102,14 +102,8 @@ const worker = async ({ port, worker }) => {
     worker(app);
 };
 
-const isFunction = functionToCheck => {
-    return functionToCheck && {}.toString.call(functionToCheck) === '[object Function]';
-}
-
 const load = (options = {}) => {
     args = {...args, ...options};
-    if (!isFunction(args.master)) return console.log("Power error: master must be a function".red);
-    if (!isFunction(args.worker)) return console.log("Power error: worker must be a function".red);
     if (typeof args.workers !== "number") return console.log("Power error: workers must be a number".red);
     if (typeof args.logToFile !== "boolean") return console.log("Power error: logToFile must be a boolean".red);
     if (typeof args.path !== "string") return console.log("Power error: path must be a string".red);
