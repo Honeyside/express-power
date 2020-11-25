@@ -9,6 +9,8 @@ Express with superpowers! Effortless clustering, CLI logging & colors with Expre
   <img src="https://www.honeyside.it/npm/express-power.png" alt="Express Power" width="474px" height="204px" />
 </p>
 
+Support us on <a href="https://www.patreon.com/honeyside"><strong>Patreon</strong></a> to get priority updates on our development plan and <strong>voting power on new features</strong>.
+
 ## Installation
 
 Install Express Power with yarn or npm:
