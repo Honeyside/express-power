@@ -1,6 +1,6 @@
 {
   "name": "express-power",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Express with superpowers! Effortless clustering, logging & colors with Express.",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,9 @@
   "homepage": "https://github.com/Honeyside/express-power#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "express": "^4.17.1",
     "moment": "^2.29.1"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1"
   }
 }

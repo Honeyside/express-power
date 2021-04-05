@@ -16,11 +16,11 @@ Support us on <a href="https://www.patreon.com/honeyside"><strong>Patreon</stron
 Install Express Power with yarn or npm:
 
 ```
-yarn add express-power
+yarn add express-power express
 ```
 
 ```
-npm install express-power
+npm install express-power express
 ```
 
 ## Usage & Examples
